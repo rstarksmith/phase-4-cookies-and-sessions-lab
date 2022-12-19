@@ -12,7 +12,8 @@ function Home() {
   }, []);
 
   return (
-    <main>
+
+<main>
       {articles.map((article) => {
         const emojis = makeEmojiList(article.minutes_to_read);
         return (
